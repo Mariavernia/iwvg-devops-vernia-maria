@@ -10,5 +10,9 @@
 ```
 2. Importar el proyecto mediante **IntelliJ IDEA**
    1. **Import Project**, y seleccionar la carpeta del proyecto.
-   1. Marcar **Create Project from external model**, elegir **Maven**.
-   1. **Next** … **Finish**.
+   2. Marcar **Create Project from external model**, elegir **Maven**.
+   3. **Next** … **Finish**.
+
+### Estado del código
+[![DevOps](https://github.com/Mariavernia/iwvg-devops-vernia-maria/actions/workflows/test.yml/badge.svg)](https://github.com/Mariavernia/iwvg-devops-vernia-maria/actions/workflows/test.yml)
+
