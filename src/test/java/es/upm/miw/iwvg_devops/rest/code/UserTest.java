@@ -16,8 +16,12 @@ class UserTest {
 
     @BeforeEach
     void before() {
-
-        user = new User("0", "Maria", "Vernia", null);
+        List<Fraction> fractions1 = List.of(
+                new Fraction(0, 4),
+                new Fraction(1, -3),
+                new Fraction(3, 1)
+        );
+        user = new User("0", "Maria", "Vernia", fractions1);
     }
     @Test
     void findAllUsersId() {
@@ -36,7 +40,11 @@ class UserTest {
 
     @Test
     void findAllUsersFractions() {
-        assertEquals(null, user.getFractions());
+        assertEquals(List.of(
+                new Fraction(0, 4),
+                new Fraction(1, -3),
+                new Fraction(3, 1))
+                , user.getFractions());
     }
 
     @Test
