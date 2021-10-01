@@ -36,7 +36,7 @@ class UserTest {
 
     @Test
     void findAllUsersFractions() {
-        assertEquals(List.of(), user.getFractions());
+        assertEquals(null, user.getFractions());
     }
 
     @Test
