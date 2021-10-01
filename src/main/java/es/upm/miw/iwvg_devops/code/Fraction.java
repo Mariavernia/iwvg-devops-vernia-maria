@@ -63,7 +63,7 @@ public class Fraction {
         return (this.numerator * fraction.denominator == this.denominator * fraction.numerator);
     }
 
-    public Fraction sum(Fraction fraction){
+    public Fraction add(Fraction fraction){
         if(this.denominator != fraction.denominator){
             int leastCommonMultiple = this.leastCommonMultiple(fraction.denominator);
             return new Fraction(this.getNewFraction(leastCommonMultiple)
@@ -95,6 +95,11 @@ public class Fraction {
         int multiplyBy = leastCommonMultiple / this.denominator;
         return this.numerator* multiplyBy;
     }
+
+    public boolean negativeSignFraction(){
+        return this.decimal() < 0;
+    }
+
     @Override
     public String toString() {
         return "Fraction{" +
