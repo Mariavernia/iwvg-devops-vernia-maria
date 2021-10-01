@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
 
-public class FractionTest {
+class FractionTest {
     private User user;
     @BeforeEach
     void before() {
