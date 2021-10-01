@@ -60,7 +60,7 @@ public class Fraction {
     }
 
     public boolean isEquivalent(Fraction fraction){
-        return (this.numerator * fraction.denominator == this.denominator * fraction.numerator)
+        return (this.numerator * fraction.denominator == this.denominator * fraction.numerator);
     }
 
     public Fraction sum(Fraction fraction){
