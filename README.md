@@ -17,4 +17,4 @@
 [![DevOps](https://github.com/Mariavernia/iwvg-devops-vernia-maria/actions/workflows/test.yml/badge.svg)](https://github.com/Mariavernia/iwvg-devops-vernia-maria/actions/workflows/test.yml)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Mariavernia_iwvg-devops-vernia-sanchis-maria&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=Mariavernia_iwvg-devops-vernia-sanchis-maria)
 [![BCH compliance](https://bettercodehub.com/edge/badge/Mariavernia/iwvg-devops-vernia-maria?branch=develop)](https://bettercodehub.com/)
-[![Heroku broken](https://iwvg-devops-vernia-maria.herokuapp.com/system/version-badge)](https://iwvg-devops-vernia-maria.herokuapp.com/swagger-ui.html)
+[![Heroku broken](https://iwvg-devops-vernia-maria.herokuapp.com/system/version-badge)](https://iwvg-devops-vernia-maria.herokuapp.com/webjars/swagger-ui/index.html?configUrl=/v3/api-docs/swagger-config)
