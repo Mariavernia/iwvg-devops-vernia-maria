@@ -67,7 +67,7 @@ class FractionTest {
 
     @Test
     void findFractionsSum(){
-        assertEquals(new Fraction(4, -12), user.getFractions().get(0).sum(user.getFractions().get(1)));
-        assertEquals(new Fraction(-8, -3), user.getFractions().get(2).sum(user.getFractions().get(1)));
+        assertEquals(new Fraction(4, -12), user.getFractions().get(0).add(user.getFractions().get(1)));
+        assertEquals(new Fraction(-8, -3), user.getFractions().get(2).add(user.getFractions().get(1)));
     }
 }
